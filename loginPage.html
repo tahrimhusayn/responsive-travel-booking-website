@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>LOG IN</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="loginPage.css">
+    
+    <link rel="stylesheet" href="responsive.css">
+
+
+    <script src="script.js"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+
+            <div class="content">
+
+            <p class="login-text"> <span id="login">Login </span> to your account </p>
+            <p>Don't you have any account? <br> Create one. <a href="#" onclick="openSignUp()">Sign up</a></p>
+
+            <form method="get">
+                <input type="email" placeholder="Email" required>
+                <div class="pswrd-group">
+                    <input type="password" placeholder="Enter your password" required>
+                   <span class="show-pswrd"> <i class="fa-solid fa-eye"></i>
+                    <i class="fa-solid fa-eye-slash hide"></i> </span>
+                  </div>
+                <a href="forget.pswrd">Forget password?</a> 
+            </form> 
+           
+            <button type="submit" class="btn" onclick="openlanpg()"> Login </button>
+
+            <div class="alternative-login">
+
+                <p> _____________ Or _____________ </p>
+
+                <button class="google" onclick="openlanpg()"> Login with <span>  <i class="fa-brands fa-google"></i> </span> </button>
+                <button class="apple" onclick="openlanpg()"> Login with <span> <i class="fa-brands fa-apple"> </i> </span> </button>
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

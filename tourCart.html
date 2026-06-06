@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="tourCart.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+</head>
+<body>
+
+      <!-- header section start-->
+      <header>
+        <a href="#" class="logo"><span><img src="images/travello logo.svg" alt=""></span></a>
+        <ul class="navbar">
+            <li><a href="#" onclick="openlanpg()">Home</a></li>
+            <li><a href="#" onclick="openGallery()">Gallery</a></li>
+            <li><a href="#" onclick="openDestination()">Destinations</a></li>
+            <li><a href="#" onclick="openBookings()">Bookings</a></li>
+            <li><a href="#" onclick="openContact_Us()">Contact Us</a></li>
+            <li><a href="#" onclick="openCartPage()">Cart <span><i class="fa-solid fa-cart-shopping"></i></span></a></li>
+        </ul>
+
+        <div class="divright">
+            <button class="nav-btn" onclick="openSignUp()">Sign Up </button>
+            <div class="fa fa-bars navbar-link" id="menu-icon"></div>
+        </div>
+    </header>
+    <!-- header section end-->
+
+    <!-- main section start-->
+     
+    <main class="checkout-container">
+        <section class="cart-summary">
+            <h2>Selected Tours</h2>
+            <ul id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <div class="total-price">
+                <strong>Total Price Per Person: <span id="total-price"></span> K </strong>
+            </div>
+        </section>
+
+        <section class="checkout-actions">
+            <button id="clear-cart" class="btn">Clear Cart</button>
+            <button id="checkout" class="btn">Checkout</button>
+        </section>
+    </main>
+
+    <!-- main section end -->
+
+     <!-- footer section start -->
+     <section class="footer">
+        <div class="footer-box">
+            <a href="#" class="logo" style="font-size:20px;">Tra<span>vel</span></a>
+            <p>Enjoy the touring with TravelAround</p>
+            <div class="social">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Company</h3>
+            <a href="#">Travelling</a>
+            <a href="#">About Location</a>
+            <a href="#">Success</a>
+            <a href="#">Information</a>
+        </div>
+        <div class="footer-box">
+            <h3>Resources</h3>
+            <a href="#">Download</a>
+            <a href="#">Help Center</a>
+            <a href="#">Guide Book</a>
+            <a href="#">App Directory</a>
+        </div>
+        <div class="footer-box">
+            <h3>Travellers</h3>
+            <a href="#">Why Travellers</a>
+            <a href="#">Customer Stories</a>
+        </div>
+        
+
+    </section>
+    <!-- footer section end -->
+
+
+    <!-- copyright section -->
+    <div class="copyright">
+        <p>
+            © Copyright 2025 | All rights reserved.</p>
+    </div>
+
+    <script src="tourCart.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

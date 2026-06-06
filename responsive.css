@@ -1,0 +1,64 @@
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .container {
+        width: 40%;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 60%;
+        padding: 20px;
+    }
+
+    #login {
+        font-size: 30px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .btn {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .google,
+    .apple {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #login {
+        font-size: 28px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .google,
+    .apple {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

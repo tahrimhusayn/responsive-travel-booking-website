@@ -1,0 +1,147 @@
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    color: #fff;
+    background-image: url(images/loginBG-6.0.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.container{
+    background-color: #2d2b38;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 68%;
+    margin: 10%;
+    border-radius: 20px;
+}
+
+.content{
+    margin-top: 6%;
+}
+
+.login-text{
+  color: #fff;
+}
+
+#login{
+     
+     font-size: 35px;
+     font-weight: bold;
+    }
+
+a {
+    margin: 8px;
+    color: #a27bff;
+    font-size: smaller;
+  }
+
+  input[type="email"],
+  input[type="text"],
+  input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #3c374a;
+    color: #fff;
+  }
+  
+  input::placeholder {
+    color: #bbb;
+  }
+
+  .pswrd-group{
+    position: relative;
+  }
+  
+  .show-pswrd{
+    position: absolute;
+    top: 37%;
+    right: 10px;
+    cursor: pointer;
+    font-size: small;
+  }
+
+  .fa-eye{
+    color: #fff;
+  }
+
+  .fa-eye-slash{
+    color: #bbb;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a27bff;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: #8c65e5;
+    letter-spacing: 0.5px;
+  }
+
+  p {
+    margin: 10px 0;
+    color: #bbb;
+  }
+
+  .alternative-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .google,
+  .apple {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #3c374a;
+    color: #ffffffc8;
+    margin: 8px;
+    cursor: pointer;
+    transition: linear;
+  }
+  
+  .google:hover {
+    background-color: #4096ff;
+    letter-spacing: 0.5px;
+  }
+  
+  .apple:hover {
+    background-color: #000;
+    letter-spacing: 0.5px;
+  }
+
+  .fa-google{
+    font-size: medium;
+    margin-left: 5px;
+  }
+
+  .fa-apple{
+    font-size: medium;
+    margin-left: 5px;
+  }

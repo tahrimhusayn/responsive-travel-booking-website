@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIGN UP</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="signupPage.css">
+  <script src="script.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    
+    <div class="left-section">
+
+      <div class="image-container">
+        <p class="caption">Capturing Moments, <br> Creating Memories</p>
+      </div>
+
+    </div>
+
+    <div class="right-section">
+      
+      <h1>Create an account</h1>
+      <p>Already have an account? <a href="#" onclick="openLogin()">Log in</a></p>
+
+      <form class="signupForm">
+
+        <div class="form-group">
+          <input type="text" id="firstName" placeholder="First name" required>
+          <input type="text" id="lastName" placeholder="Last name" required>
+        </div>
+
+        <input type="email" id="signupEmail" placeholder="Email" required>
+
+        <div class="pswrd-group" id="signupPassword" >
+        <input type="password" placeholder="Enter your password" required>
+       <span class="show-pswrd"> <i class="fa-solid fa-eye"></i>
+        <i class="fa-solid fa-eye-slash hide"></i> </span>
+      </div>
+
+        <div class="terms">
+          <input type="checkbox" id="terms">
+          <label for="terms">I agree to the <a href="terms.conditions">Terms & Conditions</a></label>
+        </div>
+
+        <button type="submit" class="btn" onclick="loginPage.html">Create account</button>
+
+      </form>
+
+      <div class="alternative-login">
+
+        <p> _____________ Or register with _____________ </p>
+
+        <button class="google"> <span>  <i class="fa-brands fa-google"></i> </span>  Google</button>
+        <button class="apple"> <span> <i class="fa-brands fa-apple"> </i> </span> Apple</button>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

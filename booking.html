@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+    <link rel="stylesheet" href="booking.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- header section start-->
+    <header>
+        <a href="#" class="logo"><span><img src="images/travello logo.svg" alt=""></span></a>
+        <ul class="navbar">
+            <li><a href="#" onclick="openlanpg()">Home</a></li>
+            <li><a href="#" onclick="openGallery()">Gallery</a></li>
+            <li><a href="#" onclick="openDestination()" > Destinations </a></li>
+            <li><a href="#" onclick="openBookings()">Bookings</a></li>
+            <li><a href="#" onclick="openContact_Us()">Contact Us</a></li>
+            <li><a href="#" onclick="openCartPage()">Cart <span><i class="fa-solid fa-cart-shopping"></i></span></a></li>
+        </ul>
+
+        <div class="divright">
+            <button class="nav-btn" onclick="openSignUp()">Sign Up </button>
+            <div class="fa fa-bars navbar-link" id="menu-icon"></div>
+        </div>
+    </header>
+    <!-- header section end-->
+
+     <!-- destination section start -->
+     <section class="destination" id="destinations">
+        
+        <div id="head"> <span id="rev-arrow"><img src="images/reshot-icon-arrow-chevron-left-975UQXVKZF.svg" style="cursor: pointer;" onclick="openlanpg()" alt=""></span> Top Packages </div>
+        <div class="destination-content">
+            <div class="box">
+                <img src="images/img1.jpg" alt="">
+                <h4>Mountain Hiking Tour</h4>
+                <h6>2 days package</h6>
+                <div class="row">
+                    <p><b>15k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/hunza3.0.jpg" alt="">
+                <h4>Hunza</h4>
+                <h6>6 days package</h6>
+                <div class="row">
+                    <p><b>56k</b>/person</p>
+                    <a href="#" class="button" onclick="openProductPage()">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/Saiful-muluk-lake.jpg" alt="">
+                <h4>Naran</h4>
+                <h6>4 days package</h6>
+                <div class="row">
+                    <p><b>23k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/fairy meadows2.0.jpg" alt="">
+                <h4>Fairy Meadows</h4>
+                <h6>5 days package</h6>
+                <div class="row">
+                    <p><b>27k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/skardu.jpg" alt="">
+                <h4>Skardu</h4>
+                <h6>7 days package</h6>
+                <div class="row">
+                    <p><b>30k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/Cold Desert.jpg" alt="">
+                <h4>Sarfaranga Cold Desert</h4>
+                <h6>4 days package</h6>
+                <div class="row">
+                    <p><b>22k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/K2-base-camp2.0.jpg" alt="">
+                <h4>K2 Base Camp</h4>
+                <h6>9 days package</h6>
+                <div class="row">
+                    <p><b>35k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/Km_B.jpg" alt="">
+                <h4>Kund Malir, Balochistan</h4>
+                <h6>3 days package</h6>
+                <div class="row">
+                    <p><b>18k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/queen of hope.jpg" alt="">
+                <h4>Hingool National Park</h4>
+                <h6>1 day tour</h6>
+                <div class="row">
+                    <p><b>10k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- destination section end -->
+
+    <script src="script.js"></script>
+</body>
+</html>

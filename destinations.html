@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Destinations</title>
+
+    <link rel="stylesheet" href="destinations.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- header section start-->
+<header>
+    <a href="#" class="logo"><span><img src="images/travello logo.svg" alt=""></span></a>
+    <ul class="navbar">
+        <li><a href="#" onclick="openlanpg()">Home</a></li>
+        <li><a href="#" onclick="openGallery()">Gallery</a></li>
+        <li><a href="#" onclick="openDestination()">Destinations</a></li>
+        <li><a href="#" onclick="openBookings()" > Bookings </a></li>
+        <li><a href="#" onclick="openContact_Us()">Contact Us</a></li>
+        <li><a href="#" onclick="openCartPage()">Cart <span><i class="fa-solid fa-cart-shopping"></i></span></a></li>
+    </ul>
+
+    <div class="divright">
+        <button class="nav-btn" onclick="openSignUp()">Sign Up </button>
+        <div class="fa fa-bars navbar-link" id="menu-icon"></div>
+    </div>
+</header>
+<!-- header section end-->
+
+ <!-- activity section start -->
+ <section class="activity">
+
+    <div id="head"> <span id="rev-arrow"><img src="images/reshot-icon-arrow-chevron-left-975UQXVKZF.svg" style="cursor: pointer;" onclick="openlanpg()" alt=""></span> Popular Destinations </div>
+    <!-- <div class="center-text">
+        <h1></h1>
+    </div> -->
+    <div class="activity-content">
+        <div class="box">
+            <img src="images/k2-Base-camp.jpg" alt="">
+            <h4>K2 Base Camp</h4>
+        </div>
+        <div class="box">
+            <img src="images/Derawar_Fort_-_Bahawalpur.jpg" alt="">
+            <h4>Derawar Fort</h4>
+        </div>
+        <div class="box">
+            <img src="images/faisal mosque.webp" alt="">
+            <h4>Faisal Mosque</h4>
+        </div>
+        <div class="box">
+            <img src="images/kpass2.0.jpg" alt="">
+            <h4>Khunjerab Pass</h4>
+        </div>
+        <div class="box">
+            <img src="images/Katora-Lake.webp" alt="">
+            <h4>Katora Lake</h4>
+        </div>
+        <div class="box">
+            <img src="images/pakistan monument.jpg" alt="">
+            <h4>Pakistan Monument</h4>
+        </div>
+        <div class="box">
+            <img src="images/Hingool_Nationa_Park.jpg" alt="">
+            <h4>Hingool National Park</h4>
+        </div>
+        <div class="box">
+            <img src="images/Saiful-muluk-lake.jpg" alt="">
+            <h4>Saif ul Maluk Lake</h4>
+        </div>
+
+    </div>
+</section>
+ <!-- activity section end -->
+
+ <script src="script.js"></script>
+    
+</body>
+</html>

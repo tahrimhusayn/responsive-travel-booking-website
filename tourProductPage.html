@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Product Page</title>
+    <link rel="stylesheet" href="tourProductPage.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+      <!-- header section start-->
+      <header>
+        <a href="#" class="logo"><span><img src="images/travello logo.svg" alt=""></span></a>
+        <ul class="navbar">
+            <li><a href="#" onclick="openlanpg()">Home</a></li>
+            <li><a href="#" onclick="openGallery()">Gallery</a></li>
+            <li><a href="#" onclick="openDestination()">Destinations</a></li>
+            <li><a href="#" onclick="openBookings()">Bookings</a></li>
+            <li><a href="#" onclick="openContact_Us()">Contact Us</a></li>
+            <li><a href="#" onclick="openCartPage()">Cart <span><i class="fa-solid fa-cart-shopping"></i></span></a></li>
+        </ul>
+
+        <div class="divright">
+            <button class="nav-btn" onclick="openSignUp()">Sign Up </button>
+            <div class="fa fa-bars navbar-link" id="menu-icon"></div>
+        </div>
+    </header>
+    <!-- header section end-->
+
+    <!-- body section start-->
+
+    <div class="container">
+        <div class="image-gallery">
+            <img id="main-image" src="images/hunza3.0.jpg" alt="Main Tour Image">
+            <div class="thumbnails">
+                <img src="images/hunza3.0.jpg" class="thumbnail active" alt="Thumbnail 1">
+                <img src="images/Hunza2.0.jpg" class="thumbnail" alt="Thumbnail 2">
+                <img src="images/Saiful-muluk-lake.jpg" class="thumbnail" alt="Thumbnail 3">
+                <img src="images/hotel room.jpg" class="thumbnail" alt="Thumbnail 4">
+                <img src="images/food5.0.jpg" class="thumbnail" alt="Thumbnail 5">
+            </div>
+        </div>
+
+        <div class="tour-details" id="cart-items">
+            <h3>Tour Details</h3>
+            <h1>Hunza</h1>
+            <p> Explore the Hunza Valley and Khunjerab Pass for a 6 days (5 Nights) tour on a luxury transport, 2 quality meals/day, nice accommodation in the hotel, and refreshments. The explorers will get the chance to visit Lulusar Lake, Babusar Top, Chillas, Passu cones and much more.</p>
+
+            <div class="price-section">
+                <span class="price" id="total-price">$50</span>
+                <span class="discount">20%</span>
+                <span class="old-price">$56</span>
+            </div>
+
+            <div class="quantity-selector">
+                <button id="decrease">-</button>
+                <span id="quantity">0</span>
+                <button id="increase">+</button>
+            </div>
+
+            <button class="add-to-cart" onclick="addToCart(1, 'Hunza Tour', 50)" >Add to cart</button>
+        </div>
+    </div>
+
+    <!-- body section end -->
+
+      <!-- footer section start -->
+      <section class="footer">
+        <div class="footer-box">
+            <a href="#" class="logo" style="font-size:20px;">Tra<span>vel</span></a>
+            <p>Enjoy the touring with TravelAround</p>
+            <div class="social">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Company</h3>
+            <a href="#">Travelling</a>
+            <a href="#">About Location</a>
+            <a href="#">Success</a>
+            <a href="#">Information</a>
+        </div>
+        <div class="footer-box">
+            <h3>Resources</h3>
+            <a href="#">Download</a>
+            <a href="#">Help Center</a>
+            <a href="#">Guide Book</a>
+            <a href="#">App Directory</a>
+        </div>
+        <div class="footer-box">
+            <h3>Travellers</h3>
+            <a href="#">Why Travellers</a>
+            <a href="#">Customer Stories</a>
+        </div>
+        
+
+    </section>
+    <!-- footer section end -->
+
+
+    <!-- copyright section -->
+    <div class="copyright">
+        <p>
+            © Copyright 2025 | All rights reserved.</p>
+    </div>
+
+    <script src="tourProductPage.js"></script>
+    
+    <script src="script.js"></script>
+    <script src="tourCart.js"></script>
+
+</body>
+</html>

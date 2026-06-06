@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Tour Website</title>
+
+    <link rel="icon" href="images/favicon.png">
+
+    <link rel="stylesheet" href="lanpg.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+
+<body>
+
+    <!-- header section start-->
+    <header>
+        <a href="#" class="logo"><span><img src="images/travello logo.svg" alt=""></span></a>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" onclick="openGallery()">Gallery</a></li>
+            <li><a href="#" onclick="openDestination()">Destinations</a></li>
+            <li><a href="#" onclick="openBookings()">Bookings</a></li>
+            <li><a href="#" onclick="openContact_Us()">Contact Us</a></li>
+            <li><a href="#" onclick="openCartPage()">Cart <span><i class="fa-solid fa-cart-shopping"></i></span></a></li>
+        </ul>
+
+        <div class="divright">
+            <button class="nav-btn" onclick="openSignUp()">Sign Up </button>
+            <div class="fa fa-bars navbar-link" id="menu-icon"></div>
+        </div>
+    </header>
+    <!-- header section end-->
+
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h5>Let's</h5>
+            <h1>Unleash Your<br>Inner Wanderer</h1>
+            <p>Plan and book your perfect trip with expert advice, travel <br> tips, destination information and
+                inspiration from us.</p>
+            <a href="#" class="btn" onclick="openBookings()" >Book a trip</a>
+        </div>
+    </section>
+     <!-- home section end-->
+
+
+    <!-- categories section start -->
+    <section class="categories" id="Category">
+        <div class="home-text">
+            <h1>Categories</h1>
+            
+        </div>
+        <div class="categories-content">
+            <div class="row">
+                <div class="row-img">
+                    <img src="images/beach.jpg" alt="">
+                </div>
+                <h4>Beach</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="images/desert.jpg" alt="">
+                </div>
+                <h4>Desert</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="images/mountain.jpg" alt="">
+                </div>
+                <h4>Mountain</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="images/Rohtas+Fort+web.jpg" alt="">
+                </div>
+                <h4>Forts</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="images/ansoolake-ajawdroppingwonderinpakistan-A-1553077203.webp" alt="">
+                </div>
+                <h4>Lakes</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="images/kpass2.0.jpg" alt="">
+                </div>
+                <h4>Borders</h4>
+            </div>
+        </div>
+    </section>
+    <!-- categories section end -->
+      <!-- about section start -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/img5.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h5>Our Experience</h5>
+            <h2>Our Stories Have Adventures</h2>
+            <p class="innertext">We are experienced in bringing adventures to stay their journey, with all outdoor destinations in the
+            world as our specialities. Start your adventure now! Nature has already called you!</p>
+            <div class="rating">
+                <div class="col">
+                    <h4>12K+</h4>
+                    <p>Success Journey</p>
+                </div>
+                <div class="col">
+                    <h4>16+</h4>
+                    <p>Awards Winning</p>
+                </div>
+                <div class="col">
+                    <h4>20+</h4>
+                    <p>Years Of Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+
+    <!-- packages section start -->
+    <section class="destination" id="destinations">
+        <div class="center-text">
+            <h2>Top Packages For You</h2>
+        </div>
+        <div class="destination-content">
+            <div class="box">
+                <img src="images/k2-Base-camp.jpg" alt="">
+                <h4>K2 Base Camp</h4>
+                <h6>9 days package</h6>
+                <div class="row">
+                    <p><b>35k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/hunza3.0.jpg" alt="">
+                <h4>Hunza</h4>
+                <h6>6 days package</h6>
+                <div class="row">
+                    <p><b>26k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/Km_B.jpg" alt="">
+                <h4>Kund Malir, Balochistan</h4>
+                <h6>3 days package</h6>
+                <div class="row">
+                    <p><b>18k</b>/person</p>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn" style="margin-top: 35px;" onclick="openBookings()">View All Packages</a>
+
+    </section>
+    <!-- packages section end -->
+
+
+    <!-- Gallery section start -->
+    <section class="tourlist" id="tour">
+        <div class="tourlist-text">
+            <h5>SPARKLING MEMORIES</h5>
+            <h2>CAPTURED MOMENTS</h2>
+            <p class="innertext">Show off all your tour and travel moments encaptured by us and single layouts in Voyage.You can access multiple HD photographs of whole tour, including a great gallery layout and a modern boxes layout.</p>
+            <a href="#" class="btn" onclick="openGallery() " >View Gallery<i class="fa fa-rocket"></i></a>
+        </div>
+        <div class="tourlist-img">
+            <img src="images/colage2.0.webp" alt="">
+
+        </div>
+    </section>
+    <!-- Gallery section end -->
+
+
+    <!-- activity section start -->
+    <section class="activity">
+        <div class="center-text">
+            <h2>Our Activities</h2>
+        </div>
+        <div class="activity-content">
+            <div class="box">
+                <img src="images/camping.jpg" alt="">
+                <h4>Camping</h4>
+            </div>
+            <div class="box">
+                <img src="images/hiking.jpg" alt="">
+                <h4>Hiking</h4>
+            </div>
+            <div class="box">
+                <img src="images/climbing3.0.jpg" alt="">
+                <h4>Climbing</h4>
+            </div>
+            <div class="box">
+                <img src="images/paragliding2.0.webp" alt="">
+                <h4>Paragliding</h4>
+            </div>
+
+        </div>
+    </section>
+     <!-- activity section end -->
+
+
+    <!-- newsletter section start -->
+    <section class="newsletter" id="contact">
+        <div class="newsletter-content">
+            <div class="newsletter-text">
+                <h2>Sign up to our newsletter </h2>
+                <p>Receive latest news, update and many other things every week.</p>
+            </div>
+            <form action="#">
+                <input type="email" name="email" placeholder="Enter your email...." required>
+                <button type="submit" class="btn1"><i class="fa fa-telegram"></i></button>
+            </form>
+        </div>
+    </section>
+    <!-- newsletter section end -->
+
+
+    <!-- footer section start -->
+    <section class="footer">
+        <div class="footer-box">
+            <a href="#" class="logo" style="font-size:20px;">Tra<span>vel</span></a>
+            <p>Enjoy the touring with TravelAround</p>
+            <div class="social">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Company</h3>
+            <a href="#">Travelling</a>
+            <a href="#">About Location</a>
+            <a href="#">Success</a>
+            <a href="#">Information</a>
+        </div>
+        <div class="footer-box">
+            <h3>Resources</h3>
+            <a href="#">Download</a>
+            <a href="#">Help Center</a>
+            <a href="#">Guide Book</a>
+            <a href="#">App Directory</a>
+        </div>
+        <div class="footer-box">
+            <h3>Travellers</h3>
+            <a href="#">Why Travellers</a>
+            <a href="#">Customer Stories</a>
+        </div>
+        
+
+    </section>
+    <!-- footer section end -->
+
+
+    <!-- copyright section -->
+    <div class="copyright">
+        <p>
+            © Copyright 2025 | All rights reserved.</p>
+    </div>
+
+
+    <!-- Custom js  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
